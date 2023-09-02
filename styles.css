@@ -22,7 +22,7 @@ body{
   flex-wrap: wrap;
 }
 
-.display{
+.display-container{
   width: 85%;
   height: 90px;
   margin-top: 20px;
@@ -33,7 +33,7 @@ body{
   justify-content: end;
 }
 
-.calculation, .results{
+.calculation, .display{
   margin-right: 10px;
   margin-bottom: 10px;
 }
@@ -41,7 +41,6 @@ body{
 .calculation{
   color: rgb(68, 68, 68)
 }
-
 
 .buttons{
   width: 85%;
