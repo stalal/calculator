@@ -28,6 +28,10 @@ let displayText = document.querySelector(".display");
 let deleteButton = document.querySelector(".delete");
 let clearButton = document.querySelector(".clear");
 
+let firstNumber = 0;
+let secondNumber = 0;
+let operation = "";
+
 clearText();
 deleteText();
 
