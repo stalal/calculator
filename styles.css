@@ -1,5 +1,8 @@
 body{
   background-color: #FCF7CB;
+  font-family: 'ADLaM Display', cursive;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3rem;
 }
 
 .container{
@@ -24,7 +27,21 @@ body{
   height: 90px;
   margin-top: 20px;
   background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: end;
 }
+
+.calculation, .results{
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.calculation{
+  color: rgb(68, 68, 68)
+}
+
 
 .buttons{
   width: 85%;
